@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=10);
+}
+
+.head, footer {
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.input-area, .output-area {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inner-input, .inner-output {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+textarea {
+    border: 0.5px solid burlywood;
+    font-size: 2rem;
+}
+
+#btn-translate{
+    background-color: #FBE04D;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+}
+
+#btn-translate:hover {
+    background-color: #F59E0B;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+#output-txt {
+    background-color: white;
+    padding: rem;
+}
